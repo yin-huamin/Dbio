@@ -19,5 +19,5 @@ Get clinical data from GEO
 }
 \examples{
 #' library(Dbioinfo)
-get_sample("GSE555", "./")
+get_sample("GSE54566", "./")
 }

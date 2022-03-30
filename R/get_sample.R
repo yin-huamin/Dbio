@@ -8,7 +8,7 @@
 #'
 #' @examples
 #' #' library(Dbioinfo)
-#' get_sample("GSE555", "./")
+#' get_sample("GSE54566", "./")
 get_sample <- function(GEO_name = GEO_name, dir = dir) {
   if (requireNamespace("GEOquery", quietly = TRUE)) {
     des_dir <- paste0(dir, GEO_name)
