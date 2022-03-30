@@ -1,17 +1,30 @@
 Package: Dbio
-Title: What the Package Does (One Line, Title Case)
+Title: Bioinfo pipeline
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person(given="Huamin",
+    family="Yin", 
+    role = c("aut", "cre"),
+    email="yinhm17@126.com")
+Description: 
+    deal with GEO data.This is made for dealing with GEO data including:
+    1. get sample, matrxis and rawdata.
+    2. preprocess sample matrixs, and rawdata.
+    3. make pipeline into one function.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Suggests: 
-    renv
+    renv,
+    testthat (>= 3.0.0)
 Imports: 
     GEOquery,
-    Biobase
+    Biobase,
+    magrittr,
+    stringr,
+    dplyr,
+    tidyr
+Depends: 
+    tidyverse
+Config/testthat/edition: 3
