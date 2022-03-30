@@ -7,8 +7,8 @@
 #' @export
 #'
 #' @examples
-#' library(Dbioinfo)
-#' initial_file("GSE555", "./")
+#' library(Dbio)
+#' initial_file("GSE54566", "./")
 initial_file <- function(GEO_name = GEO_name, dir = dir) {
   des_dir <- paste0(dir, GEO_name)
   if (!dir.exists(des_dir)) {
