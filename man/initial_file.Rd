@@ -18,6 +18,6 @@ GSE download File structer
 Initial file structure
 }
 \examples{
-library(Dbioinfo)
-initial_file("GSE555", "./")
+library(Dbio)
+initial_file("GSE54566", "./")
 }
