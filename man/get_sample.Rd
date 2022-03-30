@@ -18,6 +18,6 @@ clinical data of GSE you choosed
 Get clinical data from GEO
 }
 \examples{
-#' library(Dbioinfo)
+#' library(Dbio)
 get_sample("GSE54566", "./")
 }
