@@ -19,6 +19,7 @@ preprocess_rawdata.affy<-function(GEO_name = GEO_name,
   }
   library(oligo)
   # 2.1 find rawdata dir
+  des_dir <- paste0(dir, GEO_name)
   tar_dir <- paste0(des_dir, "/1.rawdata/", GEO_name, "/")
 
   if(length(tarfile)==1){
