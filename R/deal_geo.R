@@ -80,7 +80,7 @@ deal_geo <- function(GEO_name = GEO_name,
                         ".txt")
   write.table(exp,
               exp.process,
-              col.names = FALSE, row.names = FALSE, sep = "\t", quote = FALSE)
+              col.names = TRUE, row.names = FALSE, sep = "\t", quote = FALSE)
 
   # 5 ------ Remove rawdata
   if (removeRawdata) {
